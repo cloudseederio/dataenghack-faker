@@ -6,6 +6,9 @@ project = PythonProject(
     module_name="dataenghack_faker",
     name="dataenghack-faker",
     version="0.1.0",
+    deps=[
+        'faker'
+    ]
 )
 
 project.synth()
