@@ -7,7 +7,8 @@ project = PythonProject(
     name="dataenghack-faker",
     version="0.1.0",
     deps=[
-        'faker'
+        'faker',
+        'pandas'
     ]
 )
 

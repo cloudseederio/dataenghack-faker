@@ -1,6 +1,6 @@
 import pytest
 
-from dataenghack_faker.example import hello
+from dataenghack_faker.meetup_member import hello
 
 @pytest.mark.parametrize(
     ("name", "expected"),

@@ -12,7 +12,7 @@ cities = [
 ]
 
 def stream_write_json(json_object):
-    with open('companies.json','a') as f:
+    with open('outputs/companies.json','a') as f:
         f.write(json.dumps(json_object))
         f.write("\u000a")
 
@@ -55,7 +55,7 @@ def generate_companies(city):
     state, first_postcode_digit = get_state_postcode(city)
 
     # a Python object (dict):
-    user_object = {
+    company_object = {
         "company_name": company_name,
         "street_address" : fake.street_address(),
         "city" : city,
@@ -64,9 +64,9 @@ def generate_companies(city):
         "country" : country,
     }
 
-    print(f'company object: {user_object}')
+    print(f'company object: {company_object}')
 
-    return user_object
+    return company_object
     
 if __name__ == '__main__':
     get_cities()
