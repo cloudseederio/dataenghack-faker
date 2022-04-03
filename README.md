@@ -54,6 +54,13 @@ Created using Faker
 - City
 - Date joined
 
+### Meetup Events
+
+- Event name
+- date
+- Company
+- Address
+
 ### Meetup Attendance
 
 - First Name
@@ -61,13 +68,6 @@ Created using Faker
 - Email
 - Meetup event
 - Attended (Y-N)
-
-### Meetup Events
-
-- Event name
-- date
-- Company
-- Address
 
 ### Slack Signup
 
